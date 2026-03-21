@@ -1,0 +1,38 @@
+{
+  "name": "mcp-apitools",
+  "version": "1.0.0",
+  "description": "MCP server with API & web development utilities — HTTP status codes, MIME types, JWT creation, mock data generation, CORS headers, cookie parsing",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "mcp-apitools": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "api-tools",
+    "http-status",
+    "mime-type",
+    "jwt",
+    "mock-data",
+    "cors",
+    "cookie",
+    "web-development",
+    "claude",
+    "cursor",
+    "developer-tools",
+    "rest-api"
+  ],
+  "author": "Hong Teoh",
+  "license": "MIT",
+  "funding": {
+    "type": "buymeacoffee",
+    "url": "https://buymeacoffee.com/gl89tu25lp"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
