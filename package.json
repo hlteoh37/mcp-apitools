@@ -1,7 +1,7 @@
 {
   "name": "mcp-apitools",
-  "version": "1.0.6",
-  "description": "MCP server with API & web development utilities \u2014 HTTP status codes, MIME types, JWT creation, mock data generation, CORS headers, cookie parsing",
+  "version": "1.1.1",
+  "description": "MCP server with 14 API & web development utilities — HTTP status codes, MIME types, JWT creation, mock data, CORS headers, cookie parsing, URL parser, Bearer auth, request IDs, RFC 7807 errors, rate limit headers, form encoding",
   "type": "module",
   "main": "index.js",
   "bin": {
@@ -24,7 +24,15 @@
     "claude",
     "cursor",
     "developer-tools",
-    "rest-api"
+    "rest-api",
+    "url-parser",
+    "bearer-auth",
+    "request-id",
+    "rate-limit",
+    "rfc-7807",
+    "form-encode",
+    "distributed-tracing",
+    "ai-tools"
   ],
   "author": "Hong Teoh",
   "license": "MIT",
